@@ -19,4 +19,9 @@ blog({
   middlewares: [
     ga("UA-47086708-1"),
   ],
+  style: `
+  .markdown-body a {
+    color: #ff8553;
+  }
+  `
 });
