@@ -8,25 +8,25 @@ tags: [monthly_contents]
 
 ## アニメ・ゲーム・漫画
 
-- [若者の黒魔法離れが深刻ですが、就職してみたら待遇いいし、社長も使い魔もかわいくて最高です! 5-6巻](https://amzn.to/3j0RtLr)
+[若者の黒魔法離れが深刻ですが、就職してみたら待遇いいし、社長も使い魔もかわいくて最高です! 5-6巻](https://amzn.to/3j0RtLr)
 
 全然落ちこぼれてないけど落ちこぼれ扱いを受けた主人公が黒魔法界で女の子とわちゃわちゃするちょっとえっちな漫画。登場するキャラが全員可愛いのでおすすめできる作品。
 
-- [冒険者になりたいと都に出て行った娘がSランクになってた 4巻](https://amzn.to/3r4hEUg)
+[冒険者になりたいと都に出て行った娘がSランクになってた 4巻](https://amzn.to/3r4hEUg)
 
 結構前に数話無料で読んだらキャラデザが可愛くて単行本買ってしまったアレ。ストーリーは未だよくわからない。
 
 ## 映画・小説
 
-- [ブックスマート](https://www.netflix.com/title/81061054?s=i&trkid=250311567)
+[ブックスマート](https://www.netflix.com/title/81061054?s=i&trkid=250311567)
 
 良い大学に進学するために高校生活を真面目に過ごしてきた2人が、不真面目に過ごしてきたはずの級友たちも同レベルの進路に進むことを知って驚愕し、高校最後に青春を取り戻そうとするお話。
 
-- [ハーフ・オブ・イット:面白いのはこれから](https://www.netflix.com/title/81005150?s=i&trkid=251153979)
+[ハーフ・オブ・イット:面白いのはこれから](https://www.netflix.com/title/81005150?s=i&trkid=251153979)
 
 授業の課題であるレポートの代筆で稼ぐ女の子に、アメフト脳筋の男の子がラブレターの代筆を依頼するところから物語が始まる。
 
-- [ザ・サークル](https://www.netflix.com/watch/80098473)
+[ザ・サークル](https://www.netflix.com/watch/80098473)
 
 冴えなかった女性が巨大テック企業に偶然採用され、技術の力で自分と他人のプライバシーを破壊していく映画。  
 かなり早い段階で主人公にやりすぎを感じさせるシーン満載にも関わらず、中盤では何故かノリノリで自らプライバシーを破壊しつくし、取り返しのつかない事件が起きる。  
@@ -34,30 +34,30 @@ tags: [monthly_contents]
 明らかにG○ogleを意識していておもしろい。
 終始エマ・ワトソンがセクシーだから、それだけでも観る価値がある。
 
-- [きみと、波に乗れたら](https://amzn.to/385709i)
+[きみと、波に乗れたら](https://amzn.to/385709i)
 
 最後まで観ることができなくて消化しきれてないけど記録として残しておく。  
 基本的に声優を専門としていない俳優などが声をあてていると耐えられない質なのが致命的なのだけど、冒頭からしんどかった。  
 そのしんどさと登場人物たちから漂う背景の薄っぺらさに耐え切れなくて、港の死時点で視聴を辞めてしまった。
 
-- [すばらしい新世界](https://amzn.to/3lavsJu)
+[すばらしい新世界](https://amzn.to/3lavsJu)
 
 Paperwhiteが壊れてあまり進まなかった。原始人のジョンと世界統制官との会合のシーンまで。
 
 ## 学習・自己啓発
-- [The Rust Programming Laungage](https://doc.rust-jp.rs/book-ja/title-page.html)
+[The Rust Programming Laungage](https://doc.rust-jp.rs/book-ja/title-page.html)
 
 Resultの扱い方を少しずつ学んだ。トレイトとライフタイムあたりは本当にわからないので時間かかりそう。
 
-- [rust-lang/rustlings](https://github.com/rust-lang/rustlings)
+[rust-lang/rustlings](https://github.com/rust-lang/rustlings)
 
 継続してほんのちょっとずつ進めている。
 
-- [Clean Code](https://amzn.to/3ryiw4x)
+[Clean Code](https://amzn.to/3ryiw4x)
 
 どこかで評判がよかったので買って読み始めた。年末年始の積読消化の1つ。
 
-- [リーダブルコード](https://amzn.to/38qPyvO)
+[リーダブルコード](https://amzn.to/38qPyvO)
 
 Clean Codeが非常に難しく、まずはこっち読んだほうが良さそうだと思って読んだ。  
 かれこれ3回くらい読んだけど、実践しないと身に付かないね。
@@ -65,10 +65,10 @@ Clean Codeが非常に難しく、まずはこっち読んだほうが良さそ�
 
 ## そのほか
 
-- [家電批評 2021年2月号](https://amzn.to/3bzOHLn)
+[家電批評 2021年2月号](https://amzn.to/3bzOHLn)
 
 iPad激推し号。やっぱりiPadは最高ね。
 
-- [iPadはかどる!仕事技2021](https://amzn.to/356S8oF)
+[iPadはかどる!仕事技2021](https://amzn.to/356S8oF)
 
 iPad Pro欲しくなる。

@@ -8,20 +8,20 @@ tags: [monthly_contents]
 
 ## アニメ・ゲーム・漫画
 
-- [リィンカーネーションの花弁 11-13巻](https://amzn.to/3ru8TTx)
+[リィンカーネーションの花弁 11-13巻](https://amzn.to/3ru8TTx)
 
 灰都さんが正気に戻った。かわいい。  
 アインシュタインがデレた。かわいい。
 
-- [便利屋斎藤さんシリーズ](https://amzn.to/3rud81E)
+[便利屋斎藤さんシリーズ](https://amzn.to/3rud81E)
 
 平凡に見せかけた有能異世界転生モノ。ラファンパンがとっても可愛い。
 
-- [UQ HOLDER! 24巻](https://amzn.to/3r6yZfG)
+[UQ HOLDER! 24巻](https://amzn.to/3r6yZfG)
 
 ネギまが大好きだったからほぼ続編の本作も読んでるけど、本当にこれを描きたかったのだろうか。
 
-- [黒子のバスケ 1-30巻](https://amzn.to/2ZULwab)
+[黒子のバスケ 1-30巻](https://amzn.to/2ZULwab)
 
 ピッコマで読み始めたらめちゃくちゃハマってしまって一気読みしてしまった。  
 あけだけ人気があったのにあっさり完結したのは凄い。
@@ -31,14 +31,14 @@ tags: [monthly_contents]
 
 ## 映画・小説
 
-- [すばらしい新世界](https://amzn.to/3lavsJu)
+[すばらしい新世界](https://amzn.to/3lavsJu)
 
 自分の中で「ディストピアものはこういう感じ」っていう謎の先入観が存在していたために、読み終わった直後は全く理解できなかった。  
 しばらく経ってから振り返ってみると、この作品のようなエンドのほうがしっくり来る気もしていて、ディストピアものの世界観が少しだけ広がった気がする。
 
 もともとが狭すぎただけか。
 
-- [クイーンズ・ギャンビット シーズン1 1−5](https://www.netflix.com/title/80234304?s=i&trkid=14751296)
+[クイーンズ・ギャンビット シーズン1 1−5](https://www.netflix.com/title/80234304?s=i&trkid=14751296)
 
 海外のドラマに手を出してはいけないと理解しているはずが、サムネイルの[女優 アニャ・テイラー＝ジョイ](https://www.wwdjapan.com/articles/1146829)の美しさに負けて観始めてしまった。  
 孤児院で暮らす主人公ベスが地下室でチェスに出会って才能を開花させる。一方で安定剤を常用するようになって…というお話。  
@@ -46,12 +46,12 @@ tags: [monthly_contents]
 
 
 ## 学習・自己啓発
-- [The Rust Programming Laungage](https://doc.rust-jp.rs/book-ja/title-page.html)
+[The Rust Programming Laungage](https://doc.rust-jp.rs/book-ja/title-page.html)
 
 テストの方法、コマンドラインツールの作り方、クロージャについて学んだ。  
 はやくこれ読み終えて歯車本読み始めたい。
 
-- [Team Geek](https://amzn.to/37QlTeU)
+[Team Geek](https://amzn.to/37QlTeU)
 
 チームを運営する上で注意すること、意識すうことを知りたくて読み始めた。Google先生に聞けば間違いないと思って読み始めたけど、お風呂用Kindle Paperwhiteが壊れて頓挫中。
 
