@@ -15,9 +15,9 @@ switch (arg) {
     break;
   }
   case "--content": {
-    const thisMonthFinalDay = new Date(today.getFullYear(), today.getMonth() + 1, 0);
-    const thisMonthFinalDayString = convertDateToString(thisMonthFinalDay);
-    createEntryFile(contentEntry.replace('_PUBLISH_DATE', thisMonthFinalDayString), thisMonthFinalDayString + '_monthly-contents');
+    const dateLastDayOfTheMonth = new Date(today.getFullYear(), today.getMonth() + 1, 0);
+    const stringLastDayOfTheMonth = convertDateToString(dateLastDayOfTheMonth);
+    createEntryFile(contentEntry.replace('_PUBLISH_DATE', stringLastDayOfTheMonth), stringLastDayOfTheMonth + '_monthly-contents');
     break;
   }
   default:
