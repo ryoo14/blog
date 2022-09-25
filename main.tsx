@@ -15,7 +15,7 @@ blog({
     { title: "GitHub", url: "https://github.com/ryoo14" },
     { title: "HOME", url: "https://uukk.life" },
   ],
-  favicon: "/ry.svg",
+  favicon: "/favicon.svg",
   middlewares: [
     ga("UA-47086708-1"),
   ],
