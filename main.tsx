@@ -13,7 +13,7 @@ blog({
   author: "ryoo14",
   links: [
     { title: "GitHub", url: "https://github.com/ryoo14" },
-    { title: "HOME", url: "https://uukk.life" },
+    { title: "HOME", url: "https://ryoo.cc" },
   ],
   favicon: "/favicon.svg",
   middlewares: [
