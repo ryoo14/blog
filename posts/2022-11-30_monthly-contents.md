@@ -1,5 +1,5 @@
 ---
-title: 
+title: 2022年11月のコンテンツ消費
 publish_date: 2022-11-30
 tags: [monthly_contents]
 ---

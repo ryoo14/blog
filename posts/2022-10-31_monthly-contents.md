@@ -1,6 +1,6 @@
 ---
-title: 
-publish_date: 2022-11-30
+title: 2022年10月のコンテンツ消費
+publish_date: 2022-10-31
 tags: [monthly_contents]
 ---
 
