@@ -21,7 +21,7 @@ blog({
   ],
   style: `
   .markdown-body a {
-    color: #ff8553;
+    color: #fd8550;
   }
   `
 });
