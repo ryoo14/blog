@@ -1,7 +1,7 @@
 ---
 title: ConoHaのVPS割引きっぷの割引が12/9までらしいのでVPS契約してRHEL9インストールする
 publish_date: 2022-12-08
-tags: [ConoHa advent_calendar]
+tags: [ConoHa, advent_calendar]
 ---
 
 します。
