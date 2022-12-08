@@ -4,6 +4,8 @@ publish_date: 2022-12-08
 tags: [Deno, advent_calendar]
 ---
 
+これは[Deno Advent Calendar 2022](https://qiita.com/advent-calendar/2022/deno) 8日目の記事です。
+
 [x-motemen/ghq](https://github.com/x-motemen/ghq)をご存知でしょうか。コマンドライン上でリポジトリを管理できるとても便利なCLIツールです。
 
 私も長らくお世話になっていまして、[junegunn/fzf](https://github.com/junegunn/fzf)や[junegunn/fzf.vim](https://github.com/junegunn/fzf.vim)と組み合わせて快適なCLIライフを満喫していました。
