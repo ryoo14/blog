@@ -1,7 +1,7 @@
 ---
 title: Gitリポジトリ管理とワークディレクトリ管理ができるCLIツールをDenoで作った
 publish_date: 2022-12-08
-tags: [Deno, advent_calender]
+tags: [Deno, advent_calendar]
 ---
 
 [x-motemen/ghq](https://github.com/x-motemen/ghq)をご存知でしょうか。コマンドライン上でリポジトリを管理できるとても便利なCLIツールです。
