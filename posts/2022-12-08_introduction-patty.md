@@ -1,5 +1,5 @@
 ---
-title: Gitリポジトリ管理とワークディレクトリ管理ができるCLIツールをDenoで作った
+title: DenoでGitリポジトリ管理とワークディレクトリ管理ができるCLIツールを作った
 publish_date: 2022-12-08
 tags: [Deno, advent_calendar]
 ---
