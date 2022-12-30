@@ -8,7 +8,7 @@ blog({
   // header: <header>Your custom header</header>,
   // section: <section>Your custom section</section>,
   // footer: <footer>Your custom footer</footer>,
-  avatar: "/ryoo.svg",
+  avatar: "/ryoo2.svg",
   avatarClass: "rounded-full",
   author: "ryoo14",
   links: [
