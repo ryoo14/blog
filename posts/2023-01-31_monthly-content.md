@@ -1,5 +1,5 @@
 ---
-title: 
+title: 2023年1月のコンテンツ消費
 publish_date: 2023-01-31
 tags: [monthly_contents]
 ---
