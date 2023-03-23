@@ -17,7 +17,7 @@ blog({
   ],
   favicon: "/favicon.svg",
   middlewares: [
-    ga("UA-47086708-1"),
+    ga("G-XF4Z63PW5M"),
   ],
   style: `
   .markdown-body a {
