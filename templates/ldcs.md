@@ -6,11 +6,20 @@ tags: [monthly_report]
 
 20xx年xx月の生存報告。
 
-## 📚 Learning and Development
+## 📚 学んだこととかやったこと
 
-## 🧐 Interesting Topic
 
-## 👾 Consuming Content
+<br />
 
-## 📷 Day Life Snap
+## 🧐 おもしろそうだったこと
+
+
+<br />
+
+## 👾 コンテンツ消費
+
+
+<br />
+
+## 📷 写真
 
