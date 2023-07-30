@@ -8,14 +8,14 @@ blog({
   // header: <header>Your custom header</header>,
   // section: <section>Your custom section</section>,
   // footer: <footer>Your custom footer</footer>,
-  avatar: "/ryoo2.svg",
+  avatar: "/ryoo3.svg",
   avatarClass: "rounded-full",
   author: "ryoo14",
   links: [
     { title: "GitHub", url: "https://github.com/ryoo14" },
     { title: "HOME", url: "https://ryoo.cc" },
   ],
-  favicon: "/favicon.svg",
+  favicon: "/favicon-32x32.png",
   middlewares: [
     ga("G-XF4Z63PW5M"),
   ],
