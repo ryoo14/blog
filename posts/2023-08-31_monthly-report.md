@@ -41,7 +41,9 @@ YouTubeみてるとお洒落なCSSを紹介する動画が大量に流れてく�
 
 <br />
 
-### [Vimのカスタムカラースキーム作り始めた](https://github.com/ryoo14/navaltwilight.vim)
+### [Vimのカスタムカラースキーム作り始めた](https://github.com/ryoo14/nautitwilight.vim)
+
+![screenshot](https://github.com/ryoo14/nautitwilight.vim/blob/main/screenshots/typescript.png?raw=true)
 
 最近ゲリラ豪雷雨が凄いこともあって窓の外を確認する頻度が増えたからか、黄昏時の綺麗な空を見る機会が増えた。  
 そんな折に[こんな記事](https://medium.com/eureka-engineering/recommend-generating-own-colorsheme-3114abe3e1d)を見かけたのでじゃあ作ろうと思い立って作り始めた。
@@ -76,7 +78,7 @@ YouTubeみてるとお洒落なCSSを紹介する動画が大量に流れてく�
 
 <br />
 
-### [STEINS;GATE #1-13](https://annict.com/works/865)
+### [STEINS;GATE #1-16](https://annict.com/works/865)
 
 名作と噂の作品。とぅっとぅるー。  
 かつてのインターネッツに思いを馳せられる。あとニコ動でよく耳にしたフレーズが大量に登場して無駄にノスタルジック。
@@ -125,6 +127,8 @@ YouTubeみてるとお洒落なCSSを紹介する動画が大量に流れてく�
 刊行ペースが遅くてまったく物語を覚えてないシリーズN弾。  
 項羽とバチバチやりあってたころが懐かしい。そんな項羽はとても偉い廻り者だったようだ。
 
+<br />
+
 ### [トリリオンゲーム](https://amzn.to/3E5pUfo)
 
 メディア、報道の世界での戦い。いよいよドラマ撮影現場を全て押さえるとかいうとんでもバトルに発展してきた。
@@ -152,6 +156,5 @@ YouTubeみてるとお洒落なCSSを紹介する動画が大量に流れてく�
 
 ## 📷 写真
 
-海月可愛かった
+今月もたくさん写真撮ったけど時間の関係上なし。
 
-[![Image from Gyazo](https://i.gyazo.com/8113f4f55d84f576e75e0a23dc3ecaff.jpg)](https://gyazo.com/8113f4f55d84f576e75e0a23dc3ecaff)
