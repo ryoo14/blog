@@ -23,5 +23,8 @@ blog({
   .markdown-body a {
     color: #fd8550;
   }
+  li {
+    list-style: circle;
+  }
   `
 });
