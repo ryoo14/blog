@@ -1,5 +1,5 @@
 ---
-title: Monthly Report Sep 2023
+title: Monthly Report Oct 2023
 publish_date: 2023-10-31
 tags: [monthly_report]
 ---
