@@ -50,12 +50,42 @@ tags: [monthly_report]
 ### S3に保管した画像ファイルを表示するだけのWebアプリを書いた
 
 いちいちGyazoにアップロードしてURL確認してがめんどくさいし、S3触ってみたかったから書いた。  
-とりあえず表示できるまではできたけど、毎回バケットだったり中身だったりにアクセスしてて何となく不味そうな気がするので、キャッシュさせたい。  
-AWS SAAの勉強したときにCloudFrontとS3を連携できた気がするのでそれを調べよう。
+とりあえず何も考えずに表示できるところまで書いてから、毎回バケット内のjpgファイルにアクセスさせることになって非常にダサいので、  
+CloudFrontと連携させてCDN側を見にいくように書きかえた。なんとなく動いている気がする。
+
+デフォルトのドメイン名になっているのでカスタムドメインにしたいが、証明書周りどうやるのか忘れたのでまた後日。
 
 <br />
 
 ## 🧐 おもしろそうだったこと
+
+### [UNIKEYBOARDS](https://unikeyboards.com/en-jp)
+
+自分の索敵範囲が狭すぎるだけ説もあるけど、あんまり見たことないキースイッチを取り扱ってるサイト見つけた。  
+Durock POMこそ最強のリニアスイッチと認識していて、メインのキーボードのスイッチは当分弄るつもりはないものの、Planckのキースイッチで遊べそうだったので幾つか買ってみた。
+
+Durock POMを触ってからリニア信者になったので、下の二つを試してみた。
+
+- [BSUN X HC STUDIO ROSELLE LINEAR SWITCH](https://unikeyboards.com/en-jp/products/bsun-roselle-linear-switch-factory-lubed-10pcs)  
+- [HMX MACARON LINEAR SWITCH](https://unikeyboards.com/en-jp/products/hmx-macaron-switch-factory-lubed-edition-10pcs)
+
+どちらもとても素晴らしいスイッチ！  
+Macaronはキー押下中の摩擦音がほとんど聞こえなくて、ステムが凄くタイトで打鍵が安定する感じがする。打鍵音も素敵で、やや高音の心地よい音がする。  
+Roselleは摩擦音は若干するし、Macaronと比べると若干グラつくけど、全然気にならないレベル。打鍵音はこちらもカラコロと心地よくて、中高音？くらいの音。
+
+どちらもめちゃくちゃいいスイッチだけど、Macaronの高音が子供が寝静まった夜だとちょっと気になりそうだったのでRoselleを追加で買ってPlanck全キー入れ替えた。
+
+良いキースイッチは打鍵が楽しくなるから好き。
+
+<br />
+
+### FUJIFILMのレンズ欲
+
+XF27mm F2.8とかXF16mm F1.4とか単焦点レンズしか持っていなくて、子供のお楽しみ会を撮る時に深刻な距離不足に陥った反省を活かして、ズームレンズも持っておくかと思い始めてレンズの調査をしてた。
+
+- [XF16-80mmF4 R OIS WR](https://fujifilm-x.com/ja-jp/products/lenses/xf16-80mmf4-r-ois-wr/)
+- [XF18-135mmF3.5-5.6 R LM OIS WR](https://fujifilm-x.com/ja-jp/products/lenses/xf18-135mmf35-56-r-lm-ois-wr/)
+
 
 <br />
 
@@ -152,3 +182,6 @@ Twitterかなんかで作者が自分で「9巻はやばい」みたいなこと
 <br />
 
 ## 📷 写真
+
+### 近所の葉っぱ
+![近所の葉っぱ](https://d3toh8on7lf5va.cloudfront.net/autumn_leaves.jpg)
