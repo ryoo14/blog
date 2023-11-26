@@ -86,6 +86,10 @@ XF27mm F2.8とかXF16mm F1.4とか単焦点レンズしか持っていなくて�
 - [XF16-80mmF4 R OIS WR](https://fujifilm-x.com/ja-jp/products/lenses/xf16-80mmf4-r-ois-wr/)
 - [XF18-135mmF3.5-5.6 R LM OIS WR](https://fujifilm-x.com/ja-jp/products/lenses/xf18-135mmf35-56-r-lm-ois-wr/)
 
+ワイド端は置いておいて、テレ端の差が35mm換算で約80mmある。ヨドバシで実際に試すと結構差があって、長い物には巻かれろ精神がもたげ始める。  
+ただ、18-135mmはちょっっっっとだけデカい。愛機のX-E4につけてみると、両方まぁまぁデカいんだけど16-80mmはまだ許容範囲な感じがした。
+
+なので、冬の賞与が入り次第16-80mmを買うと思う。楽しみ。
 
 <br />
 
