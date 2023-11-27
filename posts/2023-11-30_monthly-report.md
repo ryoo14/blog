@@ -57,6 +57,13 @@ CloudFrontと連携させてCDN側を見にいくように書きかえた。な�
 
 <br />
 
+### [AtCoder ProblemのTraining埋め](https://kenkoooo.com/atcoder/#/training/Boot%20camp%20for%20Beginners)
+
+随分前からやってはいたけど、競技プログラミング再開しようと思ってこちらのAC埋めも再開した。  
+まだEasy 100のうち47問しか終わってない。Easyは愚直なループでAC取れる問題ばかりなので、計算量の雰囲気を掴めるとおもう。たぶん。
+
+<br />
+
 ## 🧐 おもしろそうだったこと
 
 ### [UNIKEYBOARDS](https://unikeyboards.com/en-jp)
