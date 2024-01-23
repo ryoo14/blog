@@ -20,6 +20,10 @@ blog({
     ga("G-XF4Z63PW5M"),
   ],
   style: `
+    body {
+    color: #fffcf9;
+    background-color: #292f36;
+  }
   .markdown-body a {
     color: #fd8550;
   }
