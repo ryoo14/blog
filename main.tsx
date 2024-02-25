@@ -20,9 +20,11 @@ blog({
     ga("G-XF4Z63PW5M"),
   ],
   style: `
-    body {
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+  body {
     color: #fffcf9;
     background-color: #292f36;
+    font-family: 'Quicksand', sans-serif;
   }
   .markdown-body a {
     color: #fd8550;
