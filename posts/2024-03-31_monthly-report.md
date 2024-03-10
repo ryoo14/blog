@@ -10,16 +10,19 @@ tags: [monthly_report]
 
 ### [Linuxのしくみ](https://amzn.to/49bdRub)
 
+読んでない。
 
 <br />
 
 ### [AtCoder ProblemのTraining埋め](https://kenkoooo.com/atcoder/#/training/Boot%20camp%20for%20Beginners)
 
+何もやってない。
 
 <br />
 
 ### [テック系ニュースのPodcast化](https://github.com/ryoo14/silver_harp)
 
+3月になってからはリファクタリングばっかりやってる。Github Actionのcronは複数行書けることを知ったのでしっかり狙い通りのスケジュールで動かせるようになった。
 
 <br />
 
@@ -36,20 +39,54 @@ tags: [monthly_report]
 
 <br />
 
+### [F10 (flat keys)](https://spkeyboards.com/products/sp-f10-flat-keys?_pos=7&_sid=e19260b1a&_ss=r)
+
+まったいらでシンプルなキーキャップ。死ぬほど高い。
+
+Z40をさらにシンプルにするために買ってみた。結果的にはGhost Switchにはゆるすぎ、ロープロファイルとの相性があんまりよくなさそうだった。  
+ぽろっと取れてしまうようだけど、今の所は(値段があまりにも高かったので)我慢して使っている。大部分は遊舎工房で買って、2Uのスペースと色付きを少し本家から買ってまだ届いていないので、それが届いてから継続するか決める。
+
+このキーキャップはめてから知ったけど、半田付けの腕がなさすぎてキースイッチが全然均等？に取り付けられてないことがわかった。やり直したら多少マシになった。
+
+<br />
+
 ## 👾 コンテンツ消費
 
 ### [僕のヒーローアカデミア #29-39](https://amzn.to/3UqRjSn)
 
+アメリカNo.1ヒーロー突然の登場と死亡。からの最終決戦開始。  
+トガちゃんが本気でヴィランやってて個人的にはちょっとあれ。最後までカァイイし続けて欲しかったという謎の欲求があって自分でも驚いている。  
+ジェントル再登場はちょっと嬉しかったし、デクが嬉しそうだったのもよかった。
 
 <br />
 
-### [葬送のフリーレン #25](https://annict.com/works/10079)
+### [葬送のフリーレン #24-26](https://annict.com/works/10079)
 
+もともと漫画派なのでアニメは流してただけだったが、1級魔法使い2次試験はめっちゃ好きなので楽しんで観た。  
+フリーレンの魔法の高みはなんなのか気になる。
+
+<br />
+
+### [21ジャンプストリート](https://filmarks.com/movies/53636)
+
+旧Twitterで流れてきたドタバタ警官バディコメディ。正反対な二人の警官が正反対な役割で高校に潜入捜査する。
+
+どっと笑えるところはないけど勢いに任せてガンガン進むので観ていて飽きない。4段爆発オチは少し感心した。
+セクシーなお姉さん達がとてもよい。最後の最後で個人的にはいきすぎたグロ表現があるので注意。
+
+22ジャンプストリートという次作もあるのでそれも観る予定。
+
+<br />
+
+### [ウマ娘 プリティーダービー Season 3 #1-3](https://annict.com/works/10161)
 
 <br />
 
 
 ## 📷 写真
 
-Noraneko42AとZ40の写真を撮る。今月こそは。
+![Noraneko42A](https://d3toh8on7lf5va.cloudfront.net/noraneko42a.jpg)
+Noraneko42A w/ BSUN Roselle
 
+![Quarkeys Z40](https://d3toh8on7lf5va.cloudfront.net/z40.jpg)
+Quarkeys Z40 w/ Lofree Ghost
