@@ -148,6 +148,15 @@ SPYxFAMILY史上最大のピンチだった気もするけど呆気なく解決�
 
 <br />
 
+### [hololive 5th fes. Capture the Moment](https://hololivesuperexpo2024.hololivepro.com)
+
+ホロライブのフェス。通しチケットがなんと25,000円。1年に1回のお祭りなのでまあいいかと思って購入。
+
+Day 1は全部観終わった。VTuberのライブ観てていつも思うんだけど、絶対リアルタイムで踊ってないし歌ってないのに、曲が終わったらわざとらしく息荒くするのホンマ滑稽なのいでやめてほしい。  
+歌もダンスも事前収録したものを流すのはそっちのほうがクオリティ高いしVの特権だから全然いいので、むしろ開き直ってほしいまである。
+
+<br />
+
 ## 📷 写真
 
 ![Noraneko42A](https://d3toh8on7lf5va.cloudfront.net/noraneko42a.jpg)
