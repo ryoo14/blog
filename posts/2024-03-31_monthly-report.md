@@ -169,10 +169,23 @@ Day 1は全部観終わった。VTuberのライブ観てていつも思うんだ
 
 <br />
 
+### [アオアシ #35](https://amzn.to/3IVNcGW)
+
+バルサユース戦の続き。
+
+セレクションで葦人達が経験した「相手が不気味に手を挙げるアレ」を栗林込みのエスペリオンユースが喰らうという胸熱展開。この試合をどこに落とすのかこれからの展開が非常に楽しみ。
+
+<br />
+
 ## 📷 写真
 
 ![Noraneko42A](https://d3toh8on7lf5va.cloudfront.net/noraneko42a.jpg)
 Noraneko42A w/ BSUN Roselle
 
 ![Quarkeys Z40](https://d3toh8on7lf5va.cloudfront.net/z40.jpg)
-Quarkeys Z40 w/ Lofree Ghost
+quarkeys Z40 w/ Lofree Ghost  
+おまけでついてきたXDALキーキャップ版
+
+![Quarkeys Z40](https://d3toh8on7lf5va.cloudfront.net/z40-blanck.jpg)
+quarkeys Z40 w/ Lofree Ghost  
+ブランクキーキャップ版
