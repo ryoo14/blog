@@ -1,6 +1,6 @@
 ---
 title: Monthly Report Jul 2024
-publish_date: 2024-07-30
+publish_date: 2024-07-31
 tags: [monthly_report]
 ---
 
@@ -28,33 +28,19 @@ tags: [monthly_report]
 
 <br />
 
-### [世界一楽しい決算書の読み方](https://amzn.to/3XeBcJ5)
+### [お金は寝かせて増やしなさい](https://amzn.to/3RZFH6N)
 
-2024年消化予定の積読本の一角。
+余計なことせんとインデックス投資だけしとけという本。
 
-B/S, C/S, P/Lが一体どういったものかという説明から、実在企業の過去の資料から実例をクイズ形式で解説してくれてわかった気になれる。
-
-<br />
-
-### [Holocut](https://holocut.fan)の動画更新処理が失敗する対策
-
-PlanetScaleからTiDBに移行したあと、新しいチャンネル登録時に走る過去動画登録の処理がDBのコネクションエラーで失敗し続けていた。
-
-処理に時間かかりすぎてタイムアウトしてるようだったのでタイムアウト値を弄ってみるも解決せず。
-
-処理の流れが何故かDB接続→YouTubeから動画収集→DB登録だったので、DB接続と動画収集を入れ替えたら解決した。ちゃんちゃん。
+30年後どういう状況になっているのかは興味ある。
 
 <br />
 
 ## 🧐 おもしろそうだったこと
 
-今月は琴線に触れるモノが多くて、誕生日権限などを発揮して色々買ってしまった。[これ](https://blog.ryoo.cc/2024-06-05_graffiti)にも書いてるけどストレスが凄かったらしい。
+### [普通の人が資産運用で 99 点をとる方法とその考え方](https://hayatoito.github.io/2020/investing/)
 
-- [Grovemade Desk Black Pen](https://grovemade.com/product/desk-pen/?initial=491)
-- [Grovemade Wool Felt Desk Pad](https://grovemade.com/product/wool-felt-desk-pad/?initial=345)
-- [KANADEMONO モニタースタンド](https://kanademono.design/collections/monitor-stand/products/mst-1)
-- [FUJIFILM XF16-80mm F4 R OIS WR](https://amzn.to/3XPJIhX)
-- [ねんどろいど めぐみん](https://amzn.to/45PRTMX)
+余計なことせんとインデックス投資だけしとけという話。まだ3行しか読んでないけど。
 
 <br />
 
