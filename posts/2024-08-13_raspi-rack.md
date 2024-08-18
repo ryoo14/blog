@@ -1,9 +1,10 @@
 ---
-title: (WIP)夏休みの宿題(工作) \~ Raspberry Piクラスタ制作 \~
+title: (WIP)夏休みの宿題(工作) ~ Raspberry Piクラスタ制作 ~
 publish_date: 2024-08-13
 tags: [tech]
 ---
 
+まだ未完成。
 夏休みはないけど宿題としてずっとやりたかったRaspbery Piでクラスタ組む。  
 ラックも自分で設計する。
 
