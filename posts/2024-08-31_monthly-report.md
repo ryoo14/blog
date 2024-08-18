@@ -38,6 +38,12 @@ tags: [monthly_report]
 
 <br />
 
+### [Raspberry Piでクラスタ構築する](https://blog.ryoo.cc/2024-08-13_raspi-rack.md)
+
+夏休みの宿題(工作)としてRaspberry Piでクラスタ構築+ラック作成した。めっちゃお金使ってしまって夏休みの宿題の額ではなくなった。
+
+<br />
+
 ## 🧐 おもしろそうだったこと
 
 ### [普通の人が資産運用で 99 点をとる方法とその考え方](https://hayatoito.github.io/2020/investing/)
@@ -92,7 +98,7 @@ tags: [monthly_report]
 
 柱のもとで修行するシーズン。
 
-お頭と無惨さまの初顔合わせはいつ観てもいい。
+お館様と無惨様の初顔合わせ。そして爆散。CM明けの産屋敷一家のカットが本当に切ない。
 
 <br />
 
