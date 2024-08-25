@@ -93,6 +93,29 @@ UIが微妙でめちゃくちゃ探しにくかったけどさすがの品揃え
 
 ### masterの構築
 
+- OSインストール
+  - https://www.raspberrypi.com/software/
+  - 外との繋ぎになるwlan0用にSSIDなど情報入力しておく
+  - sshは鍵認証にしたいので公開鍵を転送
+  - とりあえず`sudo apt update & sudo apt upgrade`
+- IPアドレスの固定はdhcp側でやれとのドキュメント
+  - https://www.raspberrypi.com/documentation/computers/configuration.html#assign-a-static-ip-address
+- eth0用のNetwork Manager Connection名がWired connection 1みたいな死にそうな名前なのでeth0に変更
+  - `sudo nmcli mod 'Wired connection 1' connection.id eth0`
+- dhcp serverのセットアップ
+  - クラスタ内ネットワークのアドレス帯を定義(192.168.50.0/24)
+- smartmontools
+- SATA SSD
+  - フォーマット
+  - マウント
+- nfs serverのセットアップ
+  - SATA SSD内にディレクトリを作成してexport
+- tftp serverのセットアップ
+  - boot imageの作成
+    - 参考資料のままだとうまくいかなかった。bootmntのコピー先はシリアル番号のフォルダでは？
+    - あとexportsにエントリ追加しないとマウントできん
+  - dhcpのconfig修正
+  -
 
 
 ### slaveの構築
