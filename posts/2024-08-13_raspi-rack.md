@@ -1,10 +1,9 @@
 ---
-title: (WIP)夏休みの宿題(工作) ~ Raspberry Piクラスタ制作 ~
-publish_date: 2024-08-13
+title: 夏休みの宿題(工作) ~ Raspberry Piクラスタ制作 ~
+publish_date: 2024-08-31
 tags: [tech]
 ---
 
-まだ未完成。
 夏休みはないけど宿題としてずっとやりたかったRaspbery Piでクラスタ組む。  
 ラックも自分で設計する。
 
@@ -12,7 +11,8 @@ tags: [tech]
 
 - [私もk8sクラスタ用にRaspberry PiとTP-Linkをまとめられるケースを作りたい](https://zenn.dev/asataka/scraps/671f08eea68e82)
 - [How to build a Raspberry Pi cluster](https://www.raspberrypi.com/tutorials/cluster-raspberry-pi-tutorial/)
-
+- [How to network boot Pi4](https://github.com/garyexplains/examples/blob/master/How%20to%20network%20boot%20a%20Pi%204.md)
+- [Linuxにおける新たなパケットフィルタリングツール「nftables」入門](https://knowledge.sakura.ad.jp/22636/)
 
 ## 必要なもの
 
@@ -71,6 +71,16 @@ Illustratorで描き始めると、平面図が微妙にずれていることも
 
 UIが微妙でめちゃくちゃ探しにくかったけどさすがの品揃えで欲しいものが全て注文できた。ネジ類だけで1万円弱になって泣きそう。
 
+### 完成
+
+中段のスペーサーだけ到着が遅くなったが無事ラック完成し、搭載も完了。PoEスイッチが綺麗に収まってくれてとても嬉しい。スイッチ背面を支えてるくの字アクリルも頑丈でとてもいい出来。最高。
+
+正面の写真  
+![正面写真](https://d3toh8on7lf5va.cloudfront.net/raspi-rack-front-real.jpg)
+
+背面の写真  
+![背面写真](https://d3toh8on7lf5va.cloudfront.net/raspi-rack-back.jpg)
+
 ## Raspberry Pi設定
 
 ラック作成は失敗ばかりだったが、今回の件を思いついた時点でRaspberry Piをノータイムで注文せず、まずは今ある資源でなんとかしようとしたのは成長だと感じた。が、Raspberry Piの起動確認してみたら3B+が起動しなくて泣いた。結局4Bを追加で1枚購入した。
@@ -89,9 +99,9 @@ UIが微妙でめちゃくちゃ探しにくかったけどさすがの品揃え
   - サービスを動かすだけ。何を動かすとかは一切決めてない
   - 外部NWに抜ける場合はmasterを経由させるため、無線LANアダプターは無効にする
 
-全台PoEハットを被せてRJ45ケーブルから電力を受けるようにしてケーブル本数を減らす。
+全台PoEハットを被せてRJ45ケーブルから電力を受けるようにしてケーブル本数を減らす。正直ラック搭載出来た時点で完成したまであるのでできるところまでやる。
 
-### masterの構築
+### 構築
 
 - OSインストール
   - https://www.raspberrypi.com/software/
@@ -104,26 +114,68 @@ UIが微妙でめちゃくちゃ探しにくかったけどさすがの品揃え
   - `sudo nmcli mod 'Wired connection 1' connection.id eth0`
 - dhcp serverのセットアップ
   - クラスタ内ネットワークのアドレス帯を定義(192.168.50.0/24)
-- smartmontools
 - SATA SSD
-  - フォーマット
-  - マウント
+  - ext4でフォーマットして適当なディレクトリにマウントするように`/etc/fstab`に記載
 - nfs serverのセットアップ
-  - SATA SSD内にディレクトリを作成してexport
+  - SATA SSD内にディレクトリを作成して`/etc/exports`に記載
 - tftp serverのセットアップ
+  - Raspberry Pi公式の通りにやると上手くいかないので注意
   - boot imageの作成
-    - 参考資料のままだとうまくいかなかった。bootmntのコピー先はシリアル番号のフォルダでは？
-    - あとexportsにエントリ追加しないとマウントできん
-  - dhcpのconfig修正
-  -
+    - bootmntのコピー先はシリアル番号のフォルダではないかとおもう
+    - あとexportsにエントリ追加しないとクライアントがマウント出来ない
+  - dhcpのconfigをslave用に修正。tftpルートの指定など
+- が、だめ
+  - 電力不足？か何かでslave起動途中にmasterがSATA SSDを見失ってしまう
+  - masterの電源をPoEスイッチとは別のところからUSB-Cに供給して安定させるとslaveの起動に成功
+  - ケーブル本数減らしてミニマルに仕上げたいためのネットワークブートなのに電源ケーブル一本増えるのは個人的に許せず
+  - 仕方ないのでslaveに起動用のSDカード挿入することにした
 
+#### snatなど
 
-### slaveの構築
+slaveがmasterを経由してインターネットと通信できるようにする。masterのwlan0についているアドレスとは別にslaveの変換用に新しくアドレスを設定する。所謂IPマスカレードではなくSNAT。
 
+```
+$ nmcli con mod preconfigured +ipv4.addresses 192.168.11.211/24
+$ sudo systemctl restart NetworkManager
+```
+
+RHELがnftablesを採用して久しいので、せっかくなのでnftablesを使う。Raspberry Pi OSにもデフォルトでインストールされていた。
+
+```
+$ sudo nft add table nat
+$ sudo nft add chain nat postrouting { type nat hook postrouting priority 100 \; }
+$ sudo nft add rule nat postrouting oif "wlan0" ip saddr 192.168.11.211 snat to 192.168.50.11
+```
+
+#### dns
+
+dnsmasqでmasterの`/etc/hosts`を名前解決に使いつつ、エントリとして載っていないものはforwardしたい。
+
+```
+$ sudo apt install dnsmasq
+$ sudo vi /etc/dnsmasq.conf
+addn-hosts=/etc/hosts
+server=192.168.11.1
+$ sudo systemctl restart dnsmasq
+```
+
+#### ntp
+
+chronyで時刻同期させる。
+
+```
+$ sudo apt install chrony
+$ sudo vi /etc/chrony/chrony.conf
+pool ntp.nict.jp iburst trust # master
+server 192.168.50.1 iburst trust # slave
+...
+logdir /mnt/usb/log
+$ sudo systemctl restart chronyd
+```
 
 ## かかった総額
 
-今回Raspberry Pi クラスタラックを作成するにあたって必要だったものとかかった費用一覧。
+今回Raspberry Pi クラスタラックを作成するにあたって必要だったものとかかった費用一覧。大人の夏休み工作と考えてもいい値段がしている。が、楽しかったし有意義なお金の使い方だったとして忘れることにする。
 
 |       もの          |個数|価格(円)|備考|
 |---------------------|---|---:|---|
@@ -140,10 +192,10 @@ UIが微妙でめちゃくちゃ探しにくかったけどさすがの品揃え
 |M3 ナベ小ネジ(ステンレス) 6mm|25|409||
 |M3 袋ナット(ステンレス)|10|429||
 |M2.6 スペーサー(黄銅) 5mm|50|1,590||
-|M2.6 ナベ小ネジ(ステンレス) 4mm|8|0|PoE+ HATに付属していたものを流用|
+|M2.6 ナベ小ネジ(黄銅) 4mm|8|0|PoE+ HATに付属していたものを流用|
 |ゴム足 TK型|6|108||
 |総額||**50,591**||
 
 ## 総括
 
-従来のちゃんと確認しない病のせいで色々失敗ばっかりだけど図描いたりするのやっぱり楽しかった。
+従来のちゃんと確認しない病のせいで色々失敗ばっかりだけど図描いたりするのやっぱり楽しかった。色々遊ぶのに使いたいと思う。k8sそろそろやりたい。
