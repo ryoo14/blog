@@ -32,6 +32,18 @@ PostgreSQLを学びたい機運が高まった瞬間があったため、はる�
 
 <br />
 
+### やること思いつかなさすぎて[ToDoアプリ](https://github.com/ryoo14/royo)を書きはじめた
+
+TypeScriptで使えるORMどんなのがあるかわからないので調べがてら書きはじめた。
+
+最初にまずPrismaが出てきて、Denoで使えるか調べてみたものの上手く動かなかったのでNodeで使ってみた。めっちゃ使いやすかった。Prismaは良かったけどNodeで覚えることが多すぎて(tsconfigとかtsconfigとかbiomeとかtsconfigとか)嫌になってしまって、途中でDenoに戻ることに。
+
+Denoで使えるORMもあるにはあるけどメンテナンスされてなかったりして全然見つからず。。結局sqliteで使える[@db/sqlite](https://jsr.io/@db/sqlite)を選んだ。
+
+フレームワークはHono + htmx + TailwindCSSにした。
+
+<br />
+
 ## 🧐 おもしろそうだったこと
 
 ### [普通の人が資産運用で 99 点をとる方法とその考え方](https://hayatoito.github.io/2020/investing/)
