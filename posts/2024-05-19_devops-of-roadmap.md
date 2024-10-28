@@ -95,8 +95,6 @@ htopとかatopとか便利そうだけど必須かと言われたらそうでも
 
 I/Oモニタリングツール。デバイス毎のread/write量が確認できる。
 
-#### sar
-
 #### vmstat
 
 リソースモニタリングツール。
@@ -115,8 +113,13 @@ I/Oモニタリングツール。デバイス毎のread/write量が確認でき�
 
 ### Networking Tools
 
+#### digとかtcpdumpとかncとか
 
+このあたりは人並みに使える気がするのでヨシ
 
+#### ssとかnetstatとか
+
+`ss`は慣れ親しんでおかないといけない。netstatはもうダメらしい。でもWindowsはnetstatじゃない？
 
 ### Text Manipulation
 
@@ -124,10 +127,9 @@ I/Oモニタリングツール。デバイス毎のread/write量が確認でき�
 
 テキストに行番号を付与して表示する。知らなかった。
 
-#### fmt
+#### cutとかtrとかawkとか
 
-
-#### cut
+ここも人並みには使える気がするので割愛。使える気がしているだけで実はそんなことないあるある。
 
 ### Bash Scripting
 
@@ -141,9 +143,19 @@ Vim使い始めて12年くらい経つはずだけどあの頃からほぼ成長
 
 ### Git
 
+add, commit, pull, push, merge, branch, switchあたり使えてたら一旦ヨシとしたい。
+
 ## VCS Hosting
 
 ### GitHub
 
-## What is and how to setup a ______?
+仮にもGitHub Actionsも使ってるし許してあげたい
+
+## What is and how to setup a X?
+
+### Forward Proxy
+### Reverse Proxy
+### Caching Server
+### Firewall
+### Load Balancer
 
