@@ -6,6 +6,8 @@ tags: [monthly_report]
 
 2024年11月の生存報告。
 
+<font color="gray">※当ページのリンクには広告が含まれています。</font>
+
 ## 📚 学んだこととかやったこと
 
 
