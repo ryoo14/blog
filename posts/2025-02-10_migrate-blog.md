@@ -1,5 +1,5 @@
 ---
-title: Monthly Report Feb 2025
+title: ブログ移転
 publish_date: 2025-02-10
 tags: [blog]
 ---
